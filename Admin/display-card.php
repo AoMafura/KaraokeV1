@@ -1,5 +1,5 @@
-<?php include ('cards-top.php') ?>
-<?php include ('left.php') ?>
+<?php include ('shared/cards-top.php') ?>
+<?php include ('shared/left.php') ?>
 
 <div class = "col-md-9 right">
     <h3 class = "m-4 mb-5">Display Cards</h3>
@@ -67,4 +67,4 @@
     </center>
 </div>
 
-<?php include ('footer.php') ?>
+<?php include ('shared/footer.php') ?>

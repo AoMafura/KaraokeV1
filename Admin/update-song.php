@@ -1,5 +1,5 @@
-<?php include ('songlist-top.php') ?>
-<?php include ('left.php') ?>
+<?php include ('shared/songlist-top.php') ?>
+<?php include ('shared/left.php') ?>
 
 <div class = "col-md-9 right">
     <h3 class = "m-4">Update Song</h3>

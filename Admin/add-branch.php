@@ -1,5 +1,5 @@
-<?php include ('branch-top.php') ?>
-<?php include ('left.php') ?>
+<?php include ('shared/branch-top.php') ?>
+<?php include ('shared/left.php') ?>
 
 <div class = "col-md-9 right">
     <h3 class = "m-4">Add Branch</h3>
@@ -36,4 +36,4 @@
 
 </div>
 
-<?php include ('footer.php') ?>
+<?php include ('shared/footer.php') ?>

@@ -1,5 +1,5 @@
-<?php include ('branch-top.php') ?>
-<?php include ('left.php');
+<?php include ('shared/branch-top.php') ?>
+<?php include ('shared/left.php');
     include ('php/function.php');
     session_start();
     $id = $_SESSION["id"];
@@ -43,4 +43,4 @@
 
 </div>
 
-<?php include ('footer.php') ?>
+<?php include ('shared/footer.php') ?>

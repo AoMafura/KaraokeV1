@@ -1,4 +1,4 @@
-<?php include ('Baseline2.php') ?>
+<?php include ('shared/Baseline2.php') ?>
 
 <div class = "col-md-9 right">
     <h3 class = "mt-4 mb-4">Hourly Subscription</h3>
@@ -45,4 +45,4 @@
     </center>
 </div>
 
-<?php include ('footer.php') ?>
+<?php include ('shared/footer.php') ?>

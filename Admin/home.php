@@ -1,5 +1,5 @@
-<?php include ('home-top.php') ?>
-<?php include ('left.php') ?>
+<?php include ('shared/home-top.php') ?>
+<?php include ('shared/left.php') ?>
 
 <div class = "col-md-9 right">
     <center>
@@ -11,4 +11,4 @@
     </center>
 </div>
 
-<?php include ('footer.php') ?>
+<?php include ('shared/footer.php') ?>

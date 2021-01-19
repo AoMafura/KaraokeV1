@@ -1,4 +1,4 @@
-<?php include ('Baseline.php') ?>
+<?php include ('shared/Baseline.php') ?>
 
 <div class = "col-md-9 right">
     <h3 class = "mt-4 mb-4">Apply for VIP Status</h3>
@@ -44,4 +44,4 @@
     </center>
 </div>
 
-<?php include ('footer.php') ?>
+<?php include ('shared/footer.php') ?>

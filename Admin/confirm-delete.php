@@ -1,5 +1,5 @@
-<?php include ('transaction-top.php') ?>
-<?php include ('left.php') ?>
+<?php include ('shared/transaction-top.php') ?>
+<?php include ('shared/left.php') ?>
 
 <div class = "col-md-9 right">
     <h3 class = "mt-4 mb-5">Delete Transaction</h3>
@@ -40,4 +40,4 @@
     </center>
 </div>
 
-<?php include ('footer.php') ?>
+<?php include ('shared/footer.php') ?>
