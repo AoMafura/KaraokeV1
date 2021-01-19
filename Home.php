@@ -7,50 +7,42 @@
     <link rel="stylesheet" href="./styles/style-home.css">
     <title>Document</title>
 </head>
-<body>
-    <div class = "container home">
-        <div class = "row">
-            <div class = "col-sm-12 home right">
-                
-                <div class="row mb-4">
-                    <div id="machDetails" class="ml-auto col-sm-2">
-                        <div class="row">
-                            <div class = "ml-auto col-sm-9">
-                                    <h5 id = "cash-register-id" class="bold">Cash Register ID</h5>
-                                    <h6>100000001</h6>
-                            </div>
-                            <div class = "ml-auto col-sm-9" >
-                                    <h5 id = "branch-id" class="bold">Branch ID</h5>
-                                    <h6>100000001</h6>
-                            </div>
-                        </div>
-                    </div>
+<body class = "bg-primary">
+    <div class = "col-sm-12 h-100 p-0 bg-white pt-4 min-height-100 container-fluid min-vh-100">
+        <div class="col-sm-12 col-md-3 col-lg-2 offset-sm-0 offset-md-9 offset-lg-10">
+            <div class="row">
+                <div class = "offset-sm-1 offset-md-0 col-sm-5 col-md-12">
+                        <h5 id = "cash-register-id" class="bold">Cash Register ID</h5>
+                        <h6>100000001</h6>
                 </div>
-
-                <center>
-                <div class="row">
-                    <div class = "mx-auto col-sm-9 brand mt-5">
-                        <img id="logo" class="mt-5" src="img/logo.png" alt="">
-                        <img id="title" class="mt-5" src="img/title.png" alt="">
-                    </div>
+                <div class = "col-sm-5 col-md-12" >
+                        <h5 id = "branch-id" class="bold">Branch ID</h5>
+                        <h6>100000001</h6>
                 </div>
-                </center>
-
-
-                <div class="row">
-                    <div class = "col-sm-2 mt-5 ml-auto mr-5 p-3">
-                        <a href="Login.php" class="btn btn-light col-sm-12">Employee Login</a>
-                    </div>
-                </div>
-
-
             </div>
         </div>
-        <div class = "row footer ">
-            <p class="ml-auto">
-				@Copyright Mafumafu Karaoke Manager 2020
-			</p>
+
+        <div class="offset-sm-1 offset-md-2 offset-lg-3 col-sm-10 col-md-8 col-lg-6 pb-0 pt-5 my-5">
+            <div class = "row">
+                <div class = " col-sm-3 px-0">
+                    <img class= "img-fluid my-5" src="img/logo.png" alt="">
+                </div>
+                <div class = "col-sm-9 px-0">
+                    <img class="img-fluid my-5" src="img/title.png" alt="">
+                </div>
+            </div>
         </div>
+
+        <div class="col-sm-12 mt-5 py-5">
+            <div class = "col-sm-10 col-md-5 col-lg-3 offset-sm-1 offset-md-7 offset-lg-8">
+                <a href="Login.php" class="btn btn-light col-sm-12">Employee Login</a>
+            </div>
+        </div>
+    </div> 
+    <div class = "col-sm-12 footer bg-primary">
+        <p>
+            @Copyright Mafumafu Karaoke Manager 2020
+        </p>
     </div>
 </body>
 </html>

@@ -1,16 +1,15 @@
 body {
     background-color: #666666;
     color: black;
-    padding: 4.5vw;
     text-shadow: none;
 }
 
 #logo {
-    width: 15vw;
+    width: 90px;
 }
 
 #title {
-    width: 25vw;
+    width: 160px;
 }
 
 .logo, .left {
@@ -31,14 +30,6 @@ body {
 
 .right {
     background-color: white;
-}
-
-.home .right {
-    height: 47vw;
-}
-
-#machDetails{
-    margin-top: 1vw;
 }
 
 .footer {
